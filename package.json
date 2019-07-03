@@ -1,0 +1,38 @@
+{
+  "name": "wsl2mydns",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WSL2",
+    "MyDNS"
+  ],
+  "author": "SoraKumo",
+  "license": "MIT",
+  "bin": {
+    "wsl2mydns": "dist/index.js"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^12.2.4",
+    "@types/node": "^12.0.10",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.44",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "jsdom": "^15.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mofon001/wsl2mydns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mofon001/wsl2mydns/issues"
+  },
+  "homepage": "https://croud.jp/",
+  "description": "WSL2 & MyDNS"
+}
